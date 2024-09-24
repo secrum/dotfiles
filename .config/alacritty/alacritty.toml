@@ -1,0 +1,14 @@
+import = ["~/.config/alacritty/rose-pine.toml"]
+
+[font]
+size = 14
+
+[font.normal]
+family = "CaskaydiaCove Nerd Font"
+
+[window]
+opacity = 0.94
+# opacity = 1
+padding.x = 12
+padding.y = 12
+
