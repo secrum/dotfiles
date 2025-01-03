@@ -3,7 +3,7 @@
     border: none;
     font-family: "CaskaydiaCove Nerd Font";
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20;
 }
 
 window#waybar {
@@ -23,16 +23,23 @@ tooltip { background: @base;
 	margin: 0.25em;
 	font-size: 24px;
 	background: @base;
-	color: @subtle;
+	color: @rose;
 }
 
-#workspaces button.persistent {
+#workspaces button {
+    font-size: 26;
+}
+
+#workspaces button.urgent {
     color: @gold;
 }
 
+#workspaces button.empty {
+    color: @pine;
+}
 
-#workspaces button.focused {
-    color: @love;
+#workspaces button.active {
+	color: @love;
 }
 
 

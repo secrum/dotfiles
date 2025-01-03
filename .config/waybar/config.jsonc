@@ -18,31 +18,30 @@
 	    },
     // Modules configuration
     "hyprland/workspaces": {
-	    //"all-outputs": true,
+	    "disable-scroll": false,
+	    "all-outputs": true,
 	    "format": "{icon}",
 	    "format-icons" : {
-		    "1": "",
-		    "2": "",
-		    "3": "",
-		    "4": "",
-		    "5": "",
-		    "6": "",
-		    "focused": "󰧱",
-		    "default": "",
-		    "urgent": "N"
+	     "1": "󰧞",
+	     "2": "󰧞",
+	     "3": "󰧞",
+	     "4": "󰧞",
+	     "5": "󰧞",
+	     //"6": "",
+	     "active": "󰧱",
+	     //"default": "󰧞",
+	     "urgent": "N"
 	    },
-	    "persistent_workspaces": {
+	    "persistent-workspaces": {
 		    "1":[],
 		    "2":[],
 		    "3":[],	
 		    "4":[],
-		    "5":[],
-		    "6":[]
+		    "5":[]
 	    }
-
     },
     "tray": {
-	    "icon-size": 20,
+	    "icon-size": 22,
 	    "spacing": 12
     },
     "clock": {
